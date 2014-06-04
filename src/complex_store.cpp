@@ -5,10 +5,10 @@
 #include <math.h>
 #include "lz4.h"
 
-#define CHECK_TIME 10
-#define COLD_TEMP 50
+#define CHECK_TIME 1
+#define COLD_TEMP 80
 #define INITIAL_TEMP 100.0
-#define A 0.192
+#define A 5.0
 #define N 20.0
 #define SIZE 300000
 

@@ -65,10 +65,10 @@ int main() {
 	int fd;
 
 //	SimpleStore store;
-        WorkSetStore store;
+//        WorkSetStore store;
 //	CompressedStore store;
-	//HighlyCompressedStore store;
-//	ComplexStore store;
+//	HighlyCompressedStore store;
+	ComplexStore store;
 
 	Head ok_head = Head::makeOk();
 	Head response_head;
@@ -131,6 +131,7 @@ int main() {
 				     response_head.bufferSize(),
 				     0);
 				close(fd);
+                close(sockfd);
 				return 0;
 				break;
 			default:
