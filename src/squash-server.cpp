@@ -63,8 +63,8 @@ int main() {
 	listen(sockfd, LISTEN_LENGTH);
 	int fd;
 
-//	SimpleStore store;
-	CompressedStore store;
+	SimpleStore store;
+//	CompressedStore store;
 	//HighlyCompressedStore store;
 //	ComplexStore store;
 

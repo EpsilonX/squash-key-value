@@ -353,7 +353,17 @@ int main(int argc, char **argv) {
 	cout << "Client started..." << endl;
 	if (argc == 1) {
 		//test_random();
-		test_hot_sites(10, 0.2, 0.8, 100000);
+		
+        //test_hot_sites(20, 0.5, 0.5, 100000);
+        //test_hot_sites(20, 0.01, 0.99, 100000);
+	    //test_hot_sites(20, 0.2, 0.8, 100000);
+		
+	    //test_hot_sites(15, 0.2, 0.8, 100000);
+	    //test_hot_sites(10, 0.2, 0.8, 100000);
+        //test_hot_sites(5, 0.2, 0.8, 100000);
+        //test_hot_sites(1, 0.2, 0.8, 100000);
+		
+        
 	} else if (argc == 4) {
 		int copies = stoi(string{argv[1]});
 		double rate = stod(string{argv[2]});
